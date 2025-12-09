@@ -9,7 +9,7 @@ import ServicesPage from './components/ServicesPage'
 import ContactPage from './components/ContactPage'
 import TermsPage from './components/TermsPage'
 import ServiceOrderPage from './components/ServiceOrderPage'
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom'
+import { HashRouter as Router, Routes, Route } from 'react-router-dom'
 import { ThemeProvider } from './context/ThemeContext'
 
 function App() {
